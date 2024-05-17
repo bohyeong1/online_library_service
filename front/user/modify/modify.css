@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    margin:0; padding-left: 10vw; padding-right: 10vw; padding-top: 5vh;
+    width : 100%;
+    height:100vh;    
+    border: solid 1px black;
+}
+.logo{
+    text-align: center;
+    font-size: 5rem;
+}
+.main-content{
+    width:60%;
+    height:70vh;
+    border: solid 1px black;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-top: 10vh;
+    padding-top: 10vh;
+    text-align: center;
+}
+.confirm{
+    width:60%;
+    height:70vh;
+    box-sizing: border-box;
+    padding: 2vh;
+    border: solid 1px black;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    /* text-align: center; */
+    line-height: 10vh;
+    font-size: 2rem;
+    margin-top: 5vh;
+}
